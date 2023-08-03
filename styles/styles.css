@@ -255,9 +255,22 @@ img {
   }
 }
 
-@media screen and (min-width: 800px) {
+/* Alterado tamanho da fonte dos titulos para melhor legibilidade */
+@media screen and (min-width: 768px) {
   .home {
     margin: 0rem 6rem;
+  }
+
+  .news-main h2 {
+    font-size: 2.3rem;
+  }
+
+  .news-main p {
+    font-size: 1.2rem;
+  }
+
+  .secondary-container h2 {
+    font-size: 1.7rem;
   }
 }
 
